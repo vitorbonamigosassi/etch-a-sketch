@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+section {
+    background-color: turquoise;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    text-align: center;
+    margin: 24px;
+}
+
+#pixel {
+    background-color: wheat;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    margin: 5px;
+}
+
+#pixel:hover {
+    background-color: aqua;
+}
