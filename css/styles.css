@@ -7,8 +7,10 @@ body {
 }
 
 section {
-    background-color: turquoise;
+    margin: auto;
     height: auto;
+    width: 840px;
+    background-color: turquoise;
     display: flex;
     flex-wrap: wrap;
 }
