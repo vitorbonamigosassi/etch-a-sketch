@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,25 @@
     <script src="scripts/script.js" defer></script>
     <title>Etch-a-Skecth</title>
 </head>
+
 <body>
     <header>
         <h1>Etch-a-Skecth!</h1>
         <div id="header">
-            <p>Choose the size of your grid:</p>
+            <p>Type the size of your grid:</p>
             <input id="inputText" type="text">
             <span>x</span>
             <input id="inputDisabled" type="text" disabled="disabled" oninput="disabled()">
             <button id="inputButton">Create</button>
+            <div id="instructions">
+                <span id="mainColor"><img src="svg/mouse-left-click-icon.svg" alt="Mouse highlighting the left button"
+                        draggable="false"></span>
+                <span id="secondaryColor"><img src="svg/mouse-right-click-icon.svg"
+                        alt="Mouse highlighting the right button" draggable="false"></span>
+            </div>
         </div>
     </header>
-    <section id="main"></section>    
+    <section id="main"></section>
 </body>
+
 </html>

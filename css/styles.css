@@ -20,7 +20,29 @@ section {
 
 header {
     text-align: center;
-    margin: 24px;
+}
+
+img {
+    width: 24px;
+}
+
+#instructions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 12px;
+}
+
+#mainColor,
+#secondaryColor {
+    padding: 12px 16px 12px 16px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 64px;
+}
+
+#secondaryColor {
+    background-color: aqua;
 }
 
 #inputDisabled {
