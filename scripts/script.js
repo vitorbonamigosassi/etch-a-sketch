@@ -46,6 +46,7 @@ function makeRows(size) {
                     case 2:
                         color = "turquoise";
                         pixel.style.backgroundColor = color;
+                        pixel.addEventListener("contextmenu", e => e.preventDefault());
                         break;
                 }
             });
