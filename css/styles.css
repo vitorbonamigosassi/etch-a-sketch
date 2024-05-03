@@ -12,10 +12,8 @@ body {
 
 section {
     margin: auto;
-    background-color: rgba(38, 125, 165, 0.459);
-    /* background-color: turquoise; */
+    background-color: turquoise;
     width: 960px;
-    height: 200px;
     display: grid;
     grid-template-columns: repeat(var(--grid-cols), 2fr);
 }
@@ -25,8 +23,12 @@ header {
     margin: 24px;
 }
 
+#inputDisabled {
+    width: 40px;
+}
+
 #pixel {
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.486);
     text-align: center;
     padding-bottom: calc(1/1 * 100%);
 }
