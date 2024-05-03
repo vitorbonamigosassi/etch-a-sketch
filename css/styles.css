@@ -1,3 +1,7 @@
+:root {
+    --grid-cols: 1;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -8,11 +12,12 @@ body {
 
 section {
     margin: auto;
-    height: auto;
-    width: 840px;
-    background-color: turquoise;
-    display: flex;
-    flex-wrap: wrap;
+    background-color: rgba(38, 125, 165, 0.459);
+    /* background-color: turquoise; */
+    width: 960px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(var(--grid-cols), 2fr);
 }
 
 header {
@@ -21,11 +26,9 @@ header {
 }
 
 #pixel {
-    background-color: wheat;
-    height: 200px;
-    width: 200px;
-    border: 5px solid black;
-    margin: 5px;
+    border: 1px solid black;
+    text-align: center;
+    padding-bottom: calc(1/1 * 100%);
 }
 
 #pixel:hover {
