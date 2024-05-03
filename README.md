@@ -3,6 +3,8 @@ A "The Odin Project" assignment.
 
 In this lesson i'm creating a simple canvas for you to draw!
 
+[Access the live preview!](https://vitorbonamigosassi.github.io/etch-a-sketch/)
+
 ## Instructions
 Input any number between 2 and 100 and click Create to create a grid.
 You can click/hold the left mouse button to paint the grid cells, and also
