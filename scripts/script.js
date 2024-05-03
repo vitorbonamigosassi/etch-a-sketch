@@ -1,6 +1,11 @@
 const main = document.querySelector("#main");
 const inputButton = document.querySelector("#inputButton");
 const inputText = document.querySelector("#inputText");
+const inputDisabled = document.querySelector("#inputDisabled");
+
+inputText.oninput = () => {
+    inputDisabled.value = inputText.value;
+}
 
 inputButton.onclick = () => {
    main.textContent = '';
